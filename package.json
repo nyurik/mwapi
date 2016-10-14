@@ -1,6 +1,6 @@
 {
   "name": "mwapi",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "MediaWiki tiny core API wrapper",
   "main": "lib/mwapi.js",
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "bluebird": "^3.3.5",
-    "preq": "^0.4.9",
+    "preq": "^0.4.11",
     "extend": "^3.0.0"
   }
 }
