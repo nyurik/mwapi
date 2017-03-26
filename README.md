@@ -1,4 +1,4 @@
-# MediaWiki bare minimum promise-based API wrapper
+# MediaWiki bare minimum promise-based API library
 
 This library, initially written by the original developer of MediaWiki API,
 is a minimalistic set of functions to help access Wikipedia and other MW sites.
