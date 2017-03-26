@@ -1,6 +1,6 @@
 {
   "name": "mwapi",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "MediaWiki tiny core API wrapper",
   "main": "lib/mwapi.js",
   "scripts": {
