@@ -24,11 +24,14 @@ var MWApi = require('mwapi'),
         prop: 'revisions',
         titles: ['API', 'Main%20Page'],
         rvprop: 'content'
-    }, function(response) {
+    }, (response) => {
+         // Callback function to handle each result from the API
          // process response object
          // return either boolean or a promise of a boolean
          // if true, continue iterating, false to stop
-    }).then(function()) {
-        // done
-    };
+    }).then(() => {
+        // done with the API call
+    }, (err) => {
+        // an error occurred during API call
+    });
 ```
